@@ -1,0 +1,90 @@
+/* Profile.css */
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin: 50px;
+  }
+  label{
+    color: #191818;
+  }
+  input{
+    color: #817e7e;
+  }
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .image-preview {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden; /* Ensures content within the circle is visible */
+    background-color: #f0f0f0; /* Placeholder background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preview-image {
+    width: 100%; /* Ensures the image covers the circle */
+    height: 100%; /* Maintains aspect ratio */
+    object-fit: cover; /* Cover mode for image */
+  }
+  
+  .preview-placeholder {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .upload-button {
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  .details-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-icon {
+    font-size: 24px; /* Adjust size as needed */
+    margin-right: 10px; /* Margin between icon and details */
+  }
+  
+  .details-content {
+    margin-left: 10px; /* Margin between icon and details */
+  }
+  
+  .btn-btn {
+    background-color: #5D9CEC; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    font-size: 1rem; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  .profile-data {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; /* Adjust width as needed */
+  /* margin-bottom: 5px; Adjust margin as needed */
+}
+  .btn-btn:hover {
+    background-color: #81ecec; /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .btn-btn:active {
+    background-color: #55efc4; /* Background color on click */
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  

@@ -1,0 +1,53 @@
+/* Home.css */
+
+/* Button Styles */
+.btn-btn {
+    background-color: #5D9CEC; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    font-size: 1rem; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .btn-btn:hover {
+    background-color: #81ecec; /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .btn-btn:active {
+    background-color: #55efc4; /* Background color on click */
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  
+  .shadow-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 150px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background: darkred;
+  }
+  
